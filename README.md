@@ -1,5 +1,5 @@
 # CS50P 2022
-![CS50P_pll](https://user-images.githubusercontent.com/75189508/194148213-f892eaa0-aa90-4e1d-8695-1ddc25b91661.png)
+![Untitled-2](https://user-images.githubusercontent.com/75189508/194149492-3436ecdc-3994-4724-a894-1f2ecf40f54b.png)
 
 # About CS50P
 
