@@ -1,6 +1,6 @@
 facts: dict[str, int] = {
     "apple": 130,
-    "avacado": 50,
+    "avocado": 50,
     "banana": 110,
     "cantaloupe": 50,
     "grapefruit": 60,
