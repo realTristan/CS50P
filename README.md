@@ -1,4 +1,4 @@
-# CS50P 2022
+# CS50P 2022 ![Stars](https://img.shields.io/github/stars/realTristan/CS50P?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/CS50P?label=Watchers)
 ![Untitled-2](https://user-images.githubusercontent.com/75189508/194149777-f63aa3eb-0455-4982-8b18-199bc6e6c156.png)
 
 2400x800
@@ -56,13 +56,31 @@ is Harvard University's introduction to programming using a language called Pyth
 
 <h3>Problem Set 5</h3>
 
-- 
+- Testing my twittr: https://cs50.harvard.edu/python/2022/psets/5/test_twttr/
+- Back to the Bank: https://cs50.harvard.edu/python/2022/psets/5/test_bank/
+- Re-requesting a Vanity Plate: https://cs50.harvard.edu/python/2022/psets/5/test_plates/
+- Refueling: https://cs50.harvard.edu/python/2022/psets/5/test_fuel/
 
 <h3>Problem Set 6</h3>
 
-- 
+- Lines of Code: https://cs50.harvard.edu/python/2022/psets/6/lines/
+- Pizza Py: https://cs50.harvard.edu/python/2022/psets/6/pizza/
+- Scourgify: https://cs50.harvard.edu/python/2022/psets/6/scourgify/
+- CS50 P-Shirt: https://cs50.harvard.edu/python/2022/psets/6/shirt/
 
+<h3>Problem Set 7</h3>
 
+- NUMB3RS: https://cs50.harvard.edu/python/2022/psets/7/numb3rs/
+- Watch on YouTube: https://cs50.harvard.edu/python/2022/psets/7/watch/
+- Working 9 to 5: https://cs50.harvard.edu/python/2022/psets/7/working/
+- Regular, um, Expressions: https://cs50.harvard.edu/python/2022/psets/7/um/
+- Response Validation: https://cs50.harvard.edu/python/2022/psets/7/response/
+
+<h3>Problem Set 8</h3>
+
+- Seasons of Love: https://cs50.harvard.edu/python/2022/psets/8/seasons/
+- Cookie Jar: https://cs50.harvard.edu/python/2022/psets/8/jar/
+- CS50 Shirtificate: https://cs50.harvard.edu/python/2022/psets/8/shirtificate/
 
 # Concerns
 I like to share my progress which also helps motivate
