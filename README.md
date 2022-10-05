@@ -1,6 +1,8 @@
 # CS50P 2022
 ![CS50P_pll](https://user-images.githubusercontent.com/75189508/194148213-f892eaa0-aa90-4e1d-8695-1ddc25b91661.png)
 
+2400x800
+
 # About CS50P
 
 <a 
@@ -22,19 +24,35 @@ is Harvard University's introduction to programming using a language called Pyth
 
 <h3>Problem Set 1</h3>
 
-- 
+- Deep Thought: https://cs50.harvard.edu/python/2022/psets/1/deep/
+- Home Federal Savings Bank: https://cs50.harvard.edu/python/2022/psets/1/bank/
+- File Extensions: https://cs50.harvard.edu/python/2022/psets/1/extensions/
+- Math Interpreter: https://cs50.harvard.edu/python/2022/psets/1/interpreter/
+- Meal Time: https://cs50.harvard.edu/python/2022/psets/1/meal/
 
 <h3>Problem Set 2</h3>
 
-- 
+- camelCase: https://cs50.harvard.edu/python/2022/psets/2/camel/
+- Coke Machine: https://cs50.harvard.edu/python/2022/psets/2/coke/
+- Just setting up my twttr: https://cs50.harvard.edu/python/2022/psets/2/twttr/
+- Vanity Plates: https://cs50.harvard.edu/python/2022/psets/2/plates/
+- Nutrition Facts: https://cs50.harvard.edu/python/2022/psets/2/nutrition/
 
 <h3>Problem Set 3</h3>
 
-- 
+- Fuel Gauge: https://cs50.harvard.edu/python/2022/psets/3/fuel/
+- Felipe’s Taqueria: https://cs50.harvard.edu/python/2022/psets/3/taqueria/
+- Grocery List: https://cs50.harvard.edu/python/2022/psets/3/grocery/
+- Outdated: https://cs50.harvard.edu/python/2022/psets/3/outdated/
 
 <h3>Problem Set 4</h3>
 
-- 
+- Emojize: https://cs50.harvard.edu/python/2022/psets/4/emojize/
+- Frank, Ian and Glen’s Letters: https://cs50.harvard.edu/python/2022/psets/4/figlet/
+- Adieu, Adieu: https://cs50.harvard.edu/python/2022/psets/4/adieu/
+- Guessing Game: https://cs50.harvard.edu/python/2022/psets/4/game/
+- Little Professor: https://cs50.harvard.edu/python/2022/psets/4/professor/
+- Bitcoin Price Index: https://cs50.harvard.edu/python/2022/psets/4/bitcoin/
 
 <h3>Problem Set 5</h3>
 
