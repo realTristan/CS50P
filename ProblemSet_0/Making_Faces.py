@@ -1,3 +1,11 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Making Faces           //
+# //                                    //
+# ////////////////////////////////////////
+
 def convert(s: str):
     s = s.replace(":)", "🙂")
     s = s.replace(":(", "🙁")

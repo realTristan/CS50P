@@ -1,4 +1,13 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Math Interpreter       //
+# //                                    //
+# ////////////////////////////////////////
 
+# // Use the eval() function to perform
+# // the math calculation
 expression: str = input("Expression: ")
 result: float = float(eval(expression))
 print(result)

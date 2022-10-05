@@ -1,3 +1,12 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Nutrition Facts        //
+# //                                    //
+# ////////////////////////////////////////
+
+# // Store the nutrition facts in a dictionary
 facts: dict[str, int] = {
     "apple": 130,
     "avocado": 50,
@@ -19,8 +28,13 @@ facts: dict[str, int] = {
     "sweet cherries": 100,
     "tangerine": 50
 }
+
+# // Get the inputted fruit
 fruit: str = input("Item: ").lower()
+
+# // If the fruit is in the nutrition facts map
 if fruit in facts:
+    # // Print the it's calories
     print(f"Calories: {facts[fruit]}")
     
 # check50 cs50/problems/2022/python/nutrition

@@ -1,7 +1,17 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: File Extensions        //
+# //                                    //
+# ////////////////////////////////////////
 
+# // Get the user input
 file: str = input("File name: ")
 file = file.lower()
 
+# // Determine which file type depending
+# // on the input
 if ".gif" in file:
     print("image/gif")
 elif ".jpg" in file:

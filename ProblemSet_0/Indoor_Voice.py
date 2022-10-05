@@ -13,7 +13,3 @@ print()
 
 # check50 cs50/problems/2022/python/indoor
 # submit50 cs50/problems/2022/python/indoor
-
-#
-# end of Indoor_Voice.py
-#
