@@ -1,16 +1,8 @@
 # Harvard CS50P
 
-
-https://learning.edx.org/course/course-v1:MITx+6.00.1x+2T2022a/block-v1:MITx+6.00.1x+2T2022a+type@sequential+block@221a4c17dba341d6a970a0d80343253c/block-v1:MITx+6.00.1x+2T2022a+type@vertical+block@b5c165683a074970946946a069a081b2
-
 https://learning.edx.org/course/course-v1%3AHarvardX%2BCS50T%2BTechnology/home
 
 https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home
-
-
-
-
-
 
 
 # License
