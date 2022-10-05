@@ -16,7 +16,6 @@ def test_convert():
     # // Pytest the convert function (checks for errors)
     with pytest.raises(ValueError):
         convert("three/four")
-    with pytest.raises(ZeroDivisionError):
         convert("4/0")
 
 # // Test the gauge function
