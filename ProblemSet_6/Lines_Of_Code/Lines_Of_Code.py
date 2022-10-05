@@ -24,7 +24,6 @@ try:
 except FileNotFoundError:
     sys.exit("File does not exist")
 
-
 # // Iterate over the lines and track
 # // how many there are
 total_lines: int = 0

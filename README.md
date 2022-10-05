@@ -1,29 +1,53 @@
-# Harvard CS50P
-
-https://learning.edx.org/course/course-v1%3AHarvardX%2BCS50T%2BTechnology/home
-
-https://learning.edx.org/course/course-v1:HarvardX+CS50P+Python/home
+# CS50P 2022
 
 
-# License
-MIT License
+# About CS50P
 
-Copyright (c) 2022 Tristan Simpson
+<a 
+    href="https://cs50.harvard.edu/x/2022/"
+    target="_blank" 
+    rel="noopener noreferrer">
+    CS50P
+</a>
+is Harvard University's introduction to programming using a language called Python. Learn how to read and write code as well as how to test and “debug” it. Designed for students with or without prior programming experience who’d like to learn Python specifically. Learn about functions, arguments, and return values (oh my!); variables and types; conditionals and Boolean expressions; and loops. Learn how to handle exceptions, find and fix bugs, and write unit tests; use third-party libraries; validate and extract data with regular expressions; model real-world entities with classes, objects, methods, and properties; and read and write files. Hands-on opportunities for lots of practice. Exercises inspired by real-world programming problems. No software required except for a web browser, or you can write code on your own PC or Mac.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Problem Sets - 2022
+<h3>Problem Set 0</h3>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- Indoor Voice: https://cs50.harvard.edu/python/2022/psets/0/indoor/
+- Playback Speed: https://cs50.harvard.edu/python/2022/psets/0/playback/
+- Making Faces: https://cs50.harvard.edu/python/2022/psets/0/faces/
+- Einstein: https://cs50.harvard.edu/python/2022/psets/0/einstein/
+- Tip Calculator: https://cs50.harvard.edu/python/2022/psets/0/tip/
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<h3>Problem Set 1</h3>
+
+- 
+
+<h3>Problem Set 2</h3>
+
+- 
+
+<h3>Problem Set 3</h3>
+
+- 
+
+<h3>Problem Set 4</h3>
+
+- 
+
+<h3>Problem Set 5</h3>
+
+- 
+
+<h3>Problem Set 6</h3>
+
+- 
+
+
+
+# Concerns
+I like to share my progress which also helps motivate
+me to finish the course faster. Although if any directors 
+of the course want me to take this down I will gladly do so, 
+just shoot me a message via <heytristaann@gmail.com>

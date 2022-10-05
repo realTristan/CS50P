@@ -31,7 +31,6 @@ headers: any = next(reader)
 
 # // Convert the reader in tables
 tables: list[any] = [r for r in reader]
-
 # // Create a result string
 result: str = tabulate.tabulate(tables, headers, tablefmt="grid")
 
