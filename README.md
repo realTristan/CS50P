@@ -1,8 +1,6 @@
 # CS50P 2022 ![Stars](https://img.shields.io/github/stars/realTristan/CS50P?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/CS50P?label=Watchers)
 ![Untitled-2](https://user-images.githubusercontent.com/75189508/194149777-f63aa3eb-0455-4982-8b18-199bc6e6c156.png)
 
-2400x800
-
 # About CS50P
 
 <a 
