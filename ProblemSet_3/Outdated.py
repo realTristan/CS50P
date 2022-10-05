@@ -58,7 +58,7 @@ while True:
                 d: str = _d.replace(",", "")
 
                 # // Iterate over the MONTHS
-                m = get_month_numeral(_m)
+                m: int = get_month_numeral(_m)
 
                 # // Break if valid date
                 if is_valid_date(m, d): break

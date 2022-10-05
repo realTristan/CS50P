@@ -11,11 +11,11 @@ def main():
     print(f"Leave ${(dollars * percent):.2f}")
 
 # // Remove the '$' from the input
-def dollars_to_float(d: str):
+def dollars_to_float(d: str) -> float:
     return float(d.replace('$', ""))
 
 # // Remove the '%' from the input
-def percent_to_float(p: str):
+def percent_to_float(p: str) -> float:
     return float(p.replace('%', ""))/100
 
 # // Run the main function

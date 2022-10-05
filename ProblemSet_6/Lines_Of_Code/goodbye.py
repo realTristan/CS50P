@@ -12,5 +12,5 @@ def main():
     print(goodbye(name))
 
 # There should only be an output of 5 lines
-def goodbye():
+def goodbye() -> str:
     return f"goodbye"

@@ -47,7 +47,7 @@ def file_check():
     if index_1 is None or index_2 is None:
         sys.exit("Invalid input")
 
-    # // Else, return whether the files have the
+    # // Else, check whether the files have the
     # // same format.
     if index_2 != index_1:
         sys.exit("Input and output have different extensions")

@@ -13,7 +13,7 @@ def main():
 
 
 # There should only be an output of 5 lines
-def hello(to: str):
+def hello(to: str) -> str:
     return f"hello, {to}"
 
 

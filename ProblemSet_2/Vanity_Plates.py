@@ -15,7 +15,7 @@ def main():
         print("Invalid")
 
 # // Determine whether the plate is valid
-def is_valid(s: str):
+def is_valid(s: str) -> bool:
     # // If length is invalid
     if len(s) < 2 or len(s) > 6:
         return False

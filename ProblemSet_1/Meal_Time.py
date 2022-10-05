@@ -20,7 +20,7 @@ def main():
         print("dinner time")
 
 # // Convert the input to a float time
-def convert(time: str):
+def convert(time: str) -> float:
     return float(time.replace(":", ""))
 
 # // Run the main function

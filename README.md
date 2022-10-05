@@ -4,7 +4,7 @@
 # About CS50P
 
 <a 
-    href="https://cs50.harvard.edu/x/2022/"
+    href="https://www.edx.org/course/cs50s-introduction-to-programming-with-python"
     target="_blank" 
     rel="noopener noreferrer">
     CS50P
