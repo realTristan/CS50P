@@ -11,7 +11,7 @@ s: str = input("Input: ")
 
 # // Iterate over the inputted string
 for i in range(len(s)):
-    # // If chatacter is a vowel
+    # // If character is a vowel
     if s[i].lower() in ["a", "e", "i", "o", "u"]:
         s = s[:i] + "u" + s[i+1:]
 
