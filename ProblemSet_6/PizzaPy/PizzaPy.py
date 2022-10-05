@@ -36,3 +36,6 @@ result: str = tabulate.tabulate(tables, headers, tablefmt="grid")
 
 # // Print the result table
 print(result)
+
+# check50 cs50/problems/2022/python/pizza
+# submit50 cs50/problems/2022/python/pizza
