@@ -2,7 +2,7 @@ menu: dict[str, float] = {
     "baja taco": 4.00,
     "burrito": 7.50,
     "bowl": 8.50,
-    "bachos": 11.00,
+    "nachos": 11.00,
     "quesadilla": 8.50,
     "super Burrito": 8.50,
     "super Quesadilla": 9.50,
