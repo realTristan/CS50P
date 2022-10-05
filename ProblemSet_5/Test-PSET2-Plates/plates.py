@@ -1,54 +1,50 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Vanity Plates          //
+# //                                    //
+# ////////////////////////////////////////
+
+# // Main function
 def main():
-    plate = input("Plate: ")
+    plate: str = input("Plate: ")
+    return is_valid(plate)
 
-    if is_valid(plate):
-        return True
-    else:
+# // Function to check if plate is valid
+def is_valid(s: str):
+    # // If length is invalid
+    if len(s) < 2 or len(s) > 6:
         return False
 
+    # // If the first two characters are not a letter
+    if not s[0].isalpha() or not s[1].isalpha():
+        return False
 
-def is_valid(s):
-    length = len(s)
+    # // Store whether number has been found
+    foundNum: bool = False
+    firstNum: bool = True
 
-    # max 6, min 2 chars
-    if length >= 2 and length <= 6:
-        for letters in s:
-            # break if not alpha or num (punct, space, etc case)
-            if not s.isalnum():
-                return False
-                
-            if s[0].isdigit() or s[1].isdigit():
-                return False
-
-            #  first 2 char are letters
-            if s[0:2].isalpha():
-                # middle part of entry
-                middle = s[1:-1]
-                if middle.isnumeric() and middle.find(0):
-                    break
-
-                # endswith nums, but num group cannot start with 0
-                zeroIndex = s.find("0") - 1
-                if s[-(zeroIndex)].isdigit():
-                    for x in s:
-                        if x.isdigit():
-                            if x.startswith('0'):
-                                return False
-                            else:
-                                return True
-
-                # true if ends with digit
-                elif s[-2].isdigit() and s[-1].isalpha():
+    # // For each character in the string
+    for c in s:
+        # // Check if the current character is a digit
+        if c.isdigit():
+            foundNum = True
+            # // Check if first num
+            if firstNum:
+                # // first num is a 0
+                if c == "0":
                     return False
-                elif s[-2].isdigit():
-                    return True
-                elif s[0:2].isalpha():
-                    return True
-            else:
-                False
+                firstNum = False
+        
+        # // If letter comes after the number, return false
+        elif c.isalpha():
+            if foundNum:
+                return False
+        else:
+            return False
+    return True
 
-    else:
-        return False
-
+# // Run the main function
 if __name__ == "__main__":
     main()
