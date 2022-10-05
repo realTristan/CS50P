@@ -1,3 +1,10 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Vanity Plates Test     //
+# //                                    //
+# ////////////////////////////////////////
 from plates import is_valid
 
 # // Testing the is_valid function

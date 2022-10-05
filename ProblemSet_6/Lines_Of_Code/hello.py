@@ -2,12 +2,19 @@
 # //                                    //
 # // Name: Tristan Simpson              //
 # //                                    //
-# // Assignment: Bank Test              //
+# // Assignment: Lines of Code Test     //
 # //                                    //
 # ////////////////////////////////////////
-from bank import value
 
-# // Test the responses
-assert value("Hello") == 0
-assert value("How are you doing?") == 20
-assert value("What's happening?") == 100
+# Another Test Program
+def main():
+    name: str = input("whats your name? ")
+    print(hello(name))
+
+
+# There should only be an output of 5 lines
+def hello(to: str):
+    return f"hello, {to}"
+
+
+

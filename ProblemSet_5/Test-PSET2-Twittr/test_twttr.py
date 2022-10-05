@@ -1,3 +1,10 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Twttr Test             //
+# //                                    //
+# ////////////////////////////////////////
 from twttr import shorten
 
 # // Test the shorten function

@@ -1,3 +1,10 @@
+# ////////////////////////////////////////
+# //                                    //
+# // Name: Tristan Simpson              //
+# //                                    //
+# // Assignment: Fuel Gauge Test        //
+# //                                    //
+# ////////////////////////////////////////
 from fuel import convert, gauge
 import pytest
 

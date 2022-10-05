@@ -2,12 +2,15 @@
 # //                                    //
 # // Name: Tristan Simpson              //
 # //                                    //
-# // Assignment: Bank Test              //
+# // Assignment: Lines of Code Test     //
 # //                                    //
 # ////////////////////////////////////////
-from bank import value
 
-# // Test the responses
-assert value("Hello") == 0
-assert value("How are you doing?") == 20
-assert value("What's happening?") == 100
+# This is a test program
+def main():
+    name: str = input("Whats your name? ")
+    print(goodbye(name))
+
+# There should only be an output of 5 lines
+def goodbye():
+    return f"goodbye"
