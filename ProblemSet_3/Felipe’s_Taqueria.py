@@ -13,8 +13,8 @@ MENU: dict[str, float] = {
     "bowl": 8.50,
     "nachos": 11.00,
     "quesadilla": 8.50,
-    "super Burrito": 8.50,
-    "super Quesadilla": 9.50,
+    "super burrito": 8.50,
+    "super quesadilla": 9.50,
     "taco": 3.00,
     "tortilla salad": 8.00
 }
@@ -25,13 +25,13 @@ total: int = 0
 while 1:
     try:
         # // Get the item
-        item: str = input("Item: ")
+        item: str = input("Item: ").lower()
 
         # // Increase the total by the value
         # // from the item in the MENU map
         if item in MENU:
             total += MENU[item]
-        
+
         # // Print the new total formatted to 2 decimal points
         print(f"Total: ${total:.2f}")
 
@@ -39,5 +39,6 @@ while 1:
     except EOFError:
         break
 
+# https://github.com/settings/tokens
 # check50 cs50/problems/2022/python/taqueria
 # submit50 cs50/problems/2022/python/taqueria

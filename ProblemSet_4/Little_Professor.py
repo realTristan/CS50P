@@ -24,16 +24,16 @@ def generate_integer(level: int) -> int:
     return {
         1: random.randint(0, 9),
         2: random.randint(10, 99),
-        3: random.randint(100, 999)
+        3: random.randrange(100, 999)
     }[level]
-    
+
 # // Main function
 def main():
     # // Get the level the user wants to play at
     level: int = get_level()
 
     # // Pre-Defined Variables
-    errors: int = 1
+    errors: int = 0
     score: int = 0
     answer: int = -1
 
@@ -44,25 +44,30 @@ def main():
 
         solution: int = x + y
         while solution != answer:
-            answer: int = int(input(f"{x} + {y} = "))
-
-            # // If the answer is correct, increase score
-            if solution == answer:
-                score += 1
-
-            # // Else, increase errors
-            else:
-                errors += 1
-                print("EEE")
-
             # // Exit the program after printing the
             # // correct answer
             if errors >= 3:
-                print(answer)
+                print(solution)
                 sys.exit(f"Score: {score}")
+
+            try:
+                answer: int = int(input(f"{x} + {y} = "))
+            except Exception:
+                pass
+
+            # // If the answer is correct, increase score
+            if solution == answer:
+                errors = 0
+                score += 1
+
+            # // Else, increase errors
+            elif solution != answer:
+                errors += 1
+                print("EEE")
 
     # // Print the users score
     print(f"Score: {score}")
+
 
 # // Run the program
 if __name__ == "__main__":

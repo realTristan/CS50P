@@ -17,3 +17,6 @@ def test_is_valid():
     assert not is_valid("CS05")
     assert not is_valid("57EED")
     assert not is_valid("32")
+
+# check50 cs50/problems/2022/python/tests/plates
+# submit50 cs50/problems/2022/python/tests/plates

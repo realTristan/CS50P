@@ -34,3 +34,6 @@ try:
 
 except requests.RequestException:
     sys.exit()
+
+# check50 cs50/problems/2022/python/bitcoin
+# submit50 cs50/problems/2022/python/bitcoin

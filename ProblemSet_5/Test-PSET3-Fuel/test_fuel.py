@@ -16,6 +16,8 @@ def test_convert():
     # // Pytest the convert function (checks for errors)
     with pytest.raises(ValueError):
         convert("three/four")
+
+    with pytest.raises(ZeroDivisionError):
         convert("4/0")
 
 # // Test the gauge function
@@ -23,4 +25,6 @@ def test_gauge():
     assert gauge(25) == "25%"
     assert gauge(1) == "E"
     assert gauge(99) == "F"
-    
+
+# check50 cs50/problems/2022/python/tests/fuel
+# submit50 cs50/problems/2022/python/tests/fuel

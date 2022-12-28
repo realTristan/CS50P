@@ -31,11 +31,11 @@ total_lines: int = 0
 # // Iterate over the lines
 for l in file.read().splitlines():
     # // Check if line is empty
-    if not l.strip():
+    if len(l.strip()) > 0:
         continue
 
     # // Check if line starts with a comment
-    if l and not l.startswith("#"):
+    elif l and not l.strip().startswith("#"):
         total_lines += 1
 
 # // Print the total lines
