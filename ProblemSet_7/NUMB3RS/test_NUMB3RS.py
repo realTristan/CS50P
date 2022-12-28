@@ -5,7 +5,7 @@
 # // Assignment: NUMB3RS Test           //
 # //                                    //
 # ////////////////////////////////////////
-from NUMB3RS import validate
+from numb3rs import validate
 
 # // Test the ip ranges
 def test_ipranges():

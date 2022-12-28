@@ -22,32 +22,32 @@ def main():
     print(convert(hours))
 
 
-# // Function to handle the work_hours if the 
+# // Function to handle the work_hours if the
 # // time has minutes in it
 def handle_has_mins_AM(minutes: re.Match[str], work_hours: list[str]) -> list[str]:
     # // Establish group variables
     group_1: int = int(minutes.group(1))
     group_2: int = int(minutes.group(2))
-    
+
     # // If invalid group
     if group_1 < 1 or group_1 > 12:
         raise ValueError
-    
+
     # // Determine what string to append to the
     # // work_hours array
     elif group_1 == 12:
         return [*work_hours, f"00:{group_2}"]
     # // Time is greater than 9
     elif group_1 <= 9:
-        return [*work_hours, f"0{group_1}:{group_2}"]
+        return [*work_hours, f"0{group_1}:{group_2}0"]
     # // Else, append default string
-    return [*work_hours, f"{group_1}:{group_2}"]
+    return [*work_hours, f"{group_1}:{group_2}0"]
 
-# // Function to handle the work_hours if the 
+# // Function to handle the work_hours if the
 # // time has hours in it
 def handle_has_hours_AM(hours: re.Match[str], work_hours: list[str]) -> list[str]:
     group_1: int = int(hours.group(1))
-    
+
     # // Determine what string to append to the
     # // work_hours array
     if group_1 == 12:
@@ -59,13 +59,13 @@ def handle_has_hours_AM(hours: re.Match[str], work_hours: list[str]) -> list[str
     return [*work_hours, f"{group_1}:00"]
 
 
-# // Function to handle the work_hours if the 
+# // Function to handle the work_hours if the
 # // time has minutes in it
 def handle_has_mins_PM(minutes: re.Match[str], work_hours: list[str]) -> list[str]:
     # // Establish group variables
     group_1: int = int(minutes.group(1))
     group_2: int = int(minutes.group(2))
-    
+
     # // If invalid group
     if group_1 > 12 or group_1 < 1:
         raise ValueError
@@ -73,11 +73,11 @@ def handle_has_mins_PM(minutes: re.Match[str], work_hours: list[str]) -> list[st
     # // Determine what string to append to the
     # // work_hours array
     elif group_1 == 12:
-        return [*work_hours, f"12:{group_2}"]
-    return [*work_hours, f"{group_1 + 12}:{group_2}"]
+        return [*work_hours, f"12:{group_2}0"]
+    return [*work_hours, f"{group_1 + 12}:{group_2}0"]
 
 
-# // Function to handle the work_hours if the 
+# // Function to handle the work_hours if the
 # // time has hours in it
 def handle_has_hours_PM(hours: re.Match[str], work_hours: list[str]) -> list[str]:
     group_1: int = int(hours.group(1))

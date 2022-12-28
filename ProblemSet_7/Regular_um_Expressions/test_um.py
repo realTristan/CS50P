@@ -5,7 +5,7 @@
 # // Assignment: Regular, um, Expressions Test  //
 # //                                            //
 # ////////////////////////////////////////////////
-from Regular_um_Expressions import count
+from um import count
 
 # // Test the count function
 def test_count():
