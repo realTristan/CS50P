@@ -28,7 +28,7 @@ while 1:
         guess: int = int(input("Guess: "))
 
         # // If valid guess
-        if guess > 0 and guess < level:
+        if guess > 0:
 
             # // Print guess proximity
             if guess < rand_num:
